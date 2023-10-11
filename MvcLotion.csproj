@@ -13,4 +13,8 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.31" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Include="wwwroot\image\lotion1.webp" />
+  </ItemGroup>
+
 </Project>
