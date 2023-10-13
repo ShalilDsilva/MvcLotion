@@ -17,5 +17,6 @@ namespace MvcLotion.Models
         public DateTime LaunchDate { get; set; }
         public decimal Volume { get; set; }
         public decimal Price { get; set; }
+        public decimal Rating { get; set; }
     }
 }

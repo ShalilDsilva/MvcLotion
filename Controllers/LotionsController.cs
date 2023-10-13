@@ -54,7 +54,7 @@ namespace MvcLotion.Controllers
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,LotionName,LotionType,Color,LaunchDate,Volume,Price")] Lotion lotion)
+        public async Task<IActionResult> Create([Bind("Id,LotionName,LotionType,Color,LaunchDate,Volume,Price,Rating")] Lotion lotion)
         {
             if (ModelState.IsValid)
             {
@@ -86,7 +86,7 @@ namespace MvcLotion.Controllers
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,LotionName,LotionType,Color,LaunchDate,Volume,Price")] Lotion lotion)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,LotionName,LotionType,Color,LaunchDate,Volume,Price,Rating")] Lotion lotion)
         {
             if (id != lotion.Id)
             {

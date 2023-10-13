@@ -52,3 +52,10 @@ Seeded the data with 10 entries.
 Deleted the existing entries
 Added seed initializer in program.cs
 commited to github
+
+4:14pm EDT
+Added the rating field which i had forgotten to add.
+Updated the Lotion Model file along with the Scaffolded and seeded data files.
+Researched on google to find commands to add the rating field and found two commands - Add-Migration Rating -context MvcLotionContext
+																					   Update-Database -context MvcLotionContext
+commited to github

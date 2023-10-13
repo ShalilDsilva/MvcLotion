@@ -28,7 +28,8 @@ namespace MvcLotion.Models
                         Color = "Blue",
                         LaunchDate = DateTime.Parse("2020-2-12"),
                         Volume = 375,
-                        Price = 4.47M
+                        Price = 4.47M,
+                        Rating = 4.8M
                     },
 
                         new Lotion
@@ -38,7 +39,8 @@ namespace MvcLotion.Models
                             Color = "White",
                             LaunchDate = DateTime.Parse("2022-6-19"),
                             Volume = 215,
-                            Price = 3.47M
+                            Price = 3.47M,
+                            Rating = 4.8M
                         },
                              new Lotion
                              {
@@ -47,7 +49,8 @@ namespace MvcLotion.Models
                                  Color = "grey",
                                  LaunchDate = DateTime.Parse("2023-2-12"),
                                  Volume = 100,
-                                 Price = 12.27M
+                                 Price = 12.27M,
+                                 Rating = 4.3M
                              },
                               new Lotion
                               {
@@ -56,7 +59,8 @@ namespace MvcLotion.Models
                                   Color = "White",
                                   LaunchDate = DateTime.Parse("2022-6-12"),
                                   Volume = 50,
-                                  Price = 9.97M
+                                  Price = 9.97M,
+                                  Rating = 4.4M
                               },
                                new Lotion
                                {
@@ -65,7 +69,8 @@ namespace MvcLotion.Models
                                    Color = "Blue",
                                    LaunchDate = DateTime.Parse("2020-2-2"),
                                    Volume = 100,
-                                   Price = 15.97M
+                                   Price = 15.97M,
+                                   Rating = 4.6M
                                },
                                 new Lotion
                                 {
@@ -74,7 +79,8 @@ namespace MvcLotion.Models
                                     Color = "White",
                                     LaunchDate = DateTime.Parse("2019-2-12"),
                                     Volume = 100,
-                                    Price = 8.87M
+                                    Price = 8.87M,
+                                    Rating = 4.1M
                                 },
                                  new Lotion
                                  {
@@ -83,7 +89,8 @@ namespace MvcLotion.Models
                                      Color = "Red",
                                      LaunchDate = DateTime.Parse("2023-7-12"),
                                      Volume = 50,
-                                     Price = 8.47M
+                                     Price = 8.47M,
+                                     Rating = 4
                                  },
                                   new Lotion
                                   {
@@ -92,7 +99,8 @@ namespace MvcLotion.Models
                                       Color = "White",
                                       LaunchDate = DateTime.Parse("2022-8-12"),
                                       Volume = 100,
-                                      Price = 21.97M
+                                      Price = 21.97M,
+                                      Rating = 4.9M
                                   },
                                    new Lotion
                                    {
@@ -101,7 +109,8 @@ namespace MvcLotion.Models
                                        Color = "Gold",
                                        LaunchDate = DateTime.Parse("2019-8-12"),
                                        Volume = 600,
-                                       Price = 7.27M
+                                       Price = 7.27M,
+                                       Rating = 4.5M
                                    },
                                     new Lotion
                                     {
@@ -110,7 +119,8 @@ namespace MvcLotion.Models
                                         Color = "Grey",
                                         LaunchDate = DateTime.Parse("2022-9-22"),
                                         Volume = 480,
-                                        Price = 9.97M
+                                        Price = 9.97M,
+                                        Rating = 3.9M
                                     }
                 );
                 context.SaveChanges();
