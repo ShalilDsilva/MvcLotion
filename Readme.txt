@@ -46,3 +46,9 @@ Ran initial migration commands - Add-Migration InitialCreate -context MvcLotionC
 App ran with no errors
 Examined the newly created files
 commited to github
+
+3:26pm EDT
+Seeded the data with 10 entries.
+Deleted the existing entries
+Added seed initializer in program.cs
+commited to github
