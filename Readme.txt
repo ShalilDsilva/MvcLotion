@@ -36,3 +36,13 @@ Added NuGet packages from the Package Manager Console. The command used is - Ins
 Created a database context class named MvcContextLotion.cs
 Registered the database context class in the StartUp.cs file.
 Added the database connection string in appsettings.json
+commited to github
+
+2:37 pm EDT
+Scaffolded the Lotion data using the built in tools of visual studio
+CRUD files were created in Views folder
+Ran initial migration commands - Add-Migration InitialCreate -context MvcLotionContext
+								 Update-Database -context MvcLotionContext
+App ran with no errors
+Examined the newly created files
+commited to github
